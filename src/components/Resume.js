@@ -1,10 +1,14 @@
+import myResume from '../files/resume-pdf.pdf'
 
 function Resume() {
   return (
     <div>
       <h2>Résumé</h2>
+      <p>Click the link below to download the file:</p>
+      <a href={myResume} download>Download File</a>
       <section class="resume-sections">
         <h3>Front-End Proficiencies</h3>
+        
         <ul class="resume-list">
             <li>HTML</li>
             <li>CSS</li>

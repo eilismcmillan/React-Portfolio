@@ -5,6 +5,10 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 
+import { BsGithub } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
+
 
 function App() {
   const [currentPage, setCurrentPage] = useState('aboutMe');
@@ -50,7 +54,17 @@ function App() {
         </ul>
       </nav>
       <main>{renderContent()}</main>
-      <footer>Eilís McMillan 2023</footer>
+      <footer>Eilís McMillan 2023
+        <a href="#" target="_blank">
+          <i class="fa-footer"> <BsGithub/></i>
+        </a>
+        <a href="#" target="_blank">
+          <i class="fa-footer"> <BsLinkedin /> </i>
+        </a>
+        <a href="#" target="_blank">
+          <i class="fa-footer"> <BsInstagram /> </i>
+        </a>
+      </footer>
     </div>
   );
 }

@@ -8,7 +8,7 @@ function AboutMe() {
   return (
     <div>
       <h2>About Me</h2>
-      <img src={ProfilePic} alt="an image of myself"></img>
+      <img src={ProfilePic} alt="an image of myself" id='profile-img'></img>
       <p id='about-text'>
         Hi, I am Eilís! I recently graduated from Monash University with degrees
         in Marketing Science and International Studies. I am currently learning

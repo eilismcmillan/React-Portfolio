@@ -63,7 +63,7 @@ h2 {
   text-shadow: 3px 3px rgb(219, 217, 217);
 }
 
-img {
+#profile-img {
   display: block;
   order: 1;
   height: 14em;
@@ -164,6 +164,40 @@ h3 {
   padding: 8px;
 }
 
+.project img {
+  height: 15em;
+  width: 20em;
+  display: inline;
+  margin: 0.3em 1em 2em 1em;
+  border: #333 2px solid;
+  filter: grayscale(100%) blur(4px);
+}
+
+.project {
+  display: inline-block;
+}
+
+.project h3 {
+  margin-bottom: 0.2em;
+  font-size: 1.4em;
+  text-shadow: 2px 2px rgb(219, 217, 217);
+  color: #333;
+}
+
+.project img:hover {
+  filter: grayscale(0%) blur(0px);
+}
+
+.project a {
+  text-decoration: none;
+  color: #333;
+}
+
+.project a:hover {
+  text-decoration: none;
+  color: rgb(106, 186, 208);
+}
+
 footer {
   display: block;
   text-align: center;
@@ -171,5 +205,15 @@ footer {
   padding-top: 0.5em;
   padding-bottom: 0.5;
   background-color: white;
+  color: rgb(106, 186, 208);
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: none;
   color: rgb(106, 186, 208);
 }
