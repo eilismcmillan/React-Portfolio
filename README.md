@@ -5,7 +5,7 @@
 This application is a personal portfolio utilising React to render the front-end display. 
 
 ## Installation 
-No installation required. Simply follow the ![link]() to access the application. 
+No installation required. Simply follow the [link](https://eilismcmillan.github.io/React-Portfolio/) to access the application. 
 
 ## Usage 
 The different elements of the application can be accessed by clicking the links in the navigation bar. 
